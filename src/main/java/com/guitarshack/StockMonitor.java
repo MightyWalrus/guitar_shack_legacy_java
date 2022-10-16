@@ -1,7 +1,9 @@
 package com.guitarshack;
 
 import com.google.gson.Gson;
+import com.guitarshack.domain.Product;
 import com.guitarshack.domain.ProductId;
+import com.guitarshack.domain.ProductRepository;
 import lombok.RequiredArgsConstructor;
 
 import java.io.IOException;

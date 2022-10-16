@@ -1,6 +1,6 @@
 package com.guitarshack.converter;
 
-import com.guitarshack.Product;
+import com.guitarshack.domain.Product;
 import com.guitarshack.domain.LeadTime;
 import com.guitarshack.domain.ProductId;
 import com.guitarshack.domain.Stock;

@@ -1,4 +1,4 @@
-package com.guitarshack;
+package com.guitarshack.domain;
 
 import com.guitarshack.domain.LeadTime;
 import com.guitarshack.domain.ProductId;

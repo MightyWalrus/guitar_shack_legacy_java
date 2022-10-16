@@ -2,6 +2,14 @@ package com.guitarshack;
 
 import com.guitarshack.converter.MapToProductConverter;
 import com.guitarshack.domain.ProductId;
+import com.guitarshack.domain.ProductRepository;
+import com.guitarshack.infra.RequestParameter;
+import com.guitarshack.infra.CurlRequester;
+import java.util.Set;
+import lombok.Builder;
+import lombok.NonNull;
+import lombok.Singular;
+import lombok.Value;
 
 public class Program {
 
@@ -24,4 +32,5 @@ public class Program {
 
         monitor.productSold(new ProductId(productId), quantity);
     }
+
 }
